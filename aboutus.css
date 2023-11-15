@@ -1,0 +1,76 @@
+body {
+    background-color: burlywood; 
+    font-family: cursive, sans-serif; 
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    background-color: chocolate;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.about-us-content {
+    text-align: center;
+    padding: 20px;
+    
+}
+
+form {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.mailing-list-text {
+    text-align: center;
+    margin-bottom: 50px;
+label {
+    margin-top: 10px;
+}
+
+select, textarea {
+    width: 100%;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: chocolate;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #964b00;
+}
+}

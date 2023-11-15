@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="aboutus.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>About Us - Jazzy Chai Cafe</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <div class="content">
+    
+        </div>
+            <form>
+                <div class="form-group">
+                    <h3>Join Our Mailing List</h3>
+                    <p>Enjoy discounts and rewards by joining the mailing list. You will get weeking discounts sent to you!</p>
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <div class="mailing-list-text"></div>
+                    <label for="email">Email address:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+            </div>
+            <div class="about-us-content">
+                <h2>Contact Us</h2>
+                <form action="submit_form.php" method="post">
+                    <label for="messageTo">Message To:</label>
+                    <select id="messageTo" name="messageTo">
+                        <option value="manager">Manager</option>
+                        <option value="career">Career</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="orders">Orders</option>
+                    </select>
+        
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" cols="50" placeholder="Type your message here..."></textarea>
+        
+                    <input type="submit" value="Send Message">
+                </form>
+            </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
